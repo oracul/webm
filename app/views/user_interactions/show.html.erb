@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Owner:</strong>
+  <%= @user_interaction.owner %>
+</p>
+
+<%= link_to 'Edit', edit_user_interaction_path(@user_interaction) %> |
+<%= link_to 'Back', user_interactions_path %>
